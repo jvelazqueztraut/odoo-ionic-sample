@@ -3,7 +3,7 @@
 angular.module('starter').controller('LoginCtrl', ['$scope', '$state', 'jsonRpc', '$ionicLoading', function ($scope, $state, jsonRpc, $ionicLoading) {
 
     $ionicLoading.show({
-          template: 'Chargement'
+          template: 'Loading'
     });
 
     $scope.$on('$ionicView.beforeEnter', function() {
