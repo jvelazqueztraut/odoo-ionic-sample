@@ -8,12 +8,6 @@
       Ionic Framework Team
     </author>
   <content src="index.html"/>
-  <access origin="*"/>
-  
-  <!-- Allow links -->
-  <allow-navigation href="*://*.moogah.com/*" />
-  <!-- Allow intents -->
-  <allow-intent href="*://*.moogah.com/*" />
 
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
